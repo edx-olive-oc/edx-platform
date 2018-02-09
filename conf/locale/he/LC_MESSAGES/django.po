@@ -11299,9 +11299,14 @@ msgstr "חשבון עם כתובת דואר אלקטרוני חדשה כבר ק�
 msgid "You should Register before trying to access the Unit"
 msgstr "עליך להירשם לפני שתוכל לגשת ליחידה"
 
-#: lms/templates/enroll_staff.html lms/templates/ccx/enrollment.html
 #: lms/templates/courseware/course_about.html
+msgctxt "self"
+msgid "Enroll"
+msgstr ""
+
+#: lms/templates/enroll_staff.html lms/templates/ccx/enrollment.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
+msgctxt "someone"
 msgid "Enroll"
 msgstr "הירשם"
 
