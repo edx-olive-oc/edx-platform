@@ -7314,23 +7314,6 @@ msgstr ""
 msgid "Create account"
 msgstr ""
 
-#: edx-platform/israelxedu.gov.il/lms/templates/student_account/register.underscore:5
-#: edx-platform/israelxedu.gov.il/lms/templates/student_account/register.underscore:62
-msgid "Create Account"
-msgstr ""
-
-#: edx-platform/israelxedu.gov.il/lms/templates/student_account/register.underscore:6
-msgid "Already have an account?"
-msgstr ""
-
-#: edx-platform/israelxedu.gov.il/lms/templates/student_account/register.underscore:10
-msgid "Account Details"
-msgstr ""
-
-#: edx-platform/israelxedu.gov.il/lms/templates/student_account/register.underscore:57
-msgid "Support education research by providing additional information"
-msgstr ""
-
 #: lms/templates/student_profile/badge.underscore
 #, python-format
 msgid "Share your \"%(display_name)s\" award"

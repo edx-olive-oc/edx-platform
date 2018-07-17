@@ -8059,11 +8059,11 @@ msgstr "הירשם דרך edX"
 
 #: lms/templates/student_account/login.underscore
 msgid "First time here?"
-msgstr "פעם ראשונה שלך כאן?"
+msgstr ""
 
 #: lms/templates/student_account/login.underscore
 msgid "Create an Account."
-msgstr "יצירת חשבון"
+msgstr ""
 
 #: lms/templates/student_account/login.underscore
 msgid "Sign In"
@@ -8132,7 +8132,7 @@ msgstr "יש לך כבר חשבון?"
 
 #: lms/templates/student_account/register.underscore
 msgid "Sign in."
-msgstr "כניסה"
+msgstr ""
 
 #: lms/templates/student_account/register.underscore
 msgid "Create an Account"

@@ -8388,15 +8388,15 @@ msgstr "التسجيل من خلال edX"
 
 #: lms/templates/student_account/login.underscore
 msgid "First time here?"
-msgstr "هل هذه هي المرة الأولى بالنسبة لك?"
+msgstr ""
 
 #: lms/templates/student_account/login.underscore
 msgid "Create an Account."
-msgstr "إنشاء حساب"
+msgstr ""
 
 #: lms/templates/student_account/login.underscore
 msgid "Sign In"
-msgstr "تسجيل الدخول"
+msgstr ""
 
 #: lms/templates/student_account/login.underscore
 #: test_root/staticfiles/templates/student_account/login.underscore
@@ -8461,11 +8461,11 @@ msgstr "هل لديك حساب بالفعل؟"
 
 #: lms/templates/student_account/register.underscore
 msgid "Sign in."
-msgstr "تسجيل الدخول"
+msgstr ""
 
 #: lms/templates/student_account/register.underscore
 msgid "Create an Account"
-msgstr "إنشاء حساب"
+msgstr ""
 
 #: lms/templates/student_account/register.underscore
 #: test_root/staticfiles/templates/student_account/register.underscore

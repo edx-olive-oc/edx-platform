@@ -10444,7 +10444,7 @@ msgstr "كلمة المرور"
 
 #: openedx/core/djangoapps/user_api/views.py lms/templates/login.html
 msgid "Remember me"
-msgstr "تذكرني"
+msgstr "تذكُّر بياناتي"
 
 #. Translators: This message is shown to users who attempt to create a new
 #. account using an email address associated with an existing account.
@@ -10597,7 +10597,7 @@ msgstr "يجب الموافقة على {terms_of_service} الخاصة بمنص�
 
 #: openedx/core/djangoapps/user_api/views.py
 msgid "Review the Terms of Service"
-msgstr "راجع شروط الاستخدام"
+msgstr "استعراض شروط الخدمة"
 
 #: openedx/core/djangoapps/verified_track_content/models.py
 msgid "The course key for the course we would like to be auto-cohorted."
