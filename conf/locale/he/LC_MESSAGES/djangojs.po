@@ -8059,11 +8059,11 @@ msgstr "הירשם דרך edX"
 
 #: lms/templates/student_account/login.underscore
 msgid "First time here?"
-msgstr ""
+msgstr "פעם ראשונה שלך כאן?"
 
 #: lms/templates/student_account/login.underscore
 msgid "Create an Account."
-msgstr ""
+msgstr "יצירת חשבון"
 
 #: lms/templates/student_account/login.underscore
 msgid "Sign In"
@@ -8128,11 +8128,11 @@ msgstr "שחזר את הסיסמה שלי"
 #: lms/templates/student_account/register.underscore
 #: test_root/staticfiles/templates/student_account/register.underscore
 msgid "Already have an account?"
-msgstr "האם יש לך כבר חשבון?"
+msgstr "יש לך כבר חשבון?"
 
 #: lms/templates/student_account/register.underscore
 msgid "Sign in."
-msgstr ""
+msgstr "כניסה"
 
 #: lms/templates/student_account/register.underscore
 msgid "Create an Account"
@@ -8156,7 +8156,20 @@ msgstr "או צור אחד חדש כאן"
 
 #: lms/templates/student_account/register.underscore
 msgid "Create account"
-msgstr ""
+msgstr "יצירת חשבון"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/student_account/register.underscore:5
+#: edx-platform/israelxedu.gov.il/lms/templates/student_account/register.underscore:62
+msgid "Create Account"
+msgstr "יצירת חשבון"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/student_account/register.underscore:10
+msgid "Account Details"
+msgstr "פרטי חשבון המשתמש שלך"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/student_account/register.underscore:57
+msgid "Support education research by providing additional information"
+msgstr "לצרכי מחקר ושיפור הלמידה נשמח אם תשתפ/י אותנו במספר נתונים נוספים אודותיך"
 
 #: lms/templates/student_profile/badge.underscore
 #: test_root/staticfiles/templates/student_profile/badge.underscore

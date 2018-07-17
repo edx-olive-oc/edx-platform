@@ -8388,15 +8388,15 @@ msgstr "التسجيل من خلال edX"
 
 #: lms/templates/student_account/login.underscore
 msgid "First time here?"
-msgstr ""
+msgstr "هل هذه هي المرة الأولى بالنسبة لك?"
 
 #: lms/templates/student_account/login.underscore
 msgid "Create an Account."
-msgstr ""
+msgstr "إنشاء حساب"
 
 #: lms/templates/student_account/login.underscore
 msgid "Sign In"
-msgstr ""
+msgstr "تسجيل الدخول"
 
 #: lms/templates/student_account/login.underscore
 #: test_root/staticfiles/templates/student_account/login.underscore
@@ -8457,15 +8457,15 @@ msgstr "تغيير كلمة المرور"
 #: lms/templates/student_account/register.underscore
 #: test_root/staticfiles/templates/student_account/register.underscore
 msgid "Already have an account?"
-msgstr "لديك حساب مسبقاً؟"
+msgstr "هل لديك حساب بالفعل؟"
 
 #: lms/templates/student_account/register.underscore
 msgid "Sign in."
-msgstr ""
+msgstr "تسجيل الدخول"
 
 #: lms/templates/student_account/register.underscore
 msgid "Create an Account"
-msgstr ""
+msgstr "إنشاء حساب"
 
 #: lms/templates/student_account/register.underscore
 #: test_root/staticfiles/templates/student_account/register.underscore
@@ -8485,7 +8485,20 @@ msgstr "أو أنشئ حساباً جديداً باستخدام"
 
 #: lms/templates/student_account/register.underscore
 msgid "Create account"
-msgstr ""
+msgstr "إنشاء حساب"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/student_account/register.underscore:5
+#: edx-platform/israelxedu.gov.il/lms/templates/student_account/register.underscore:62
+msgid "Create Account"
+msgstr "إنشاء حساب"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/student_account/register.underscore:10
+msgid "Account Details"
+msgstr "بيانات الحساب المستخدم الخاص بك"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/student_account/register.underscore:57
+msgid "Support education research by providing additional information"
+msgstr "من أجل البحث وتحسين التعلّم يسرنا مشاركتك في بعض البيانات الإضافية عنك"
 
 #: lms/templates/student_profile/badge.underscore
 #: test_root/staticfiles/templates/student_profile/badge.underscore
