@@ -4617,7 +4617,7 @@ msgstr "نأسف لحدوث خطأ. "
 #. profile forms.
 #: lms/static/js/student_account/views/FormView.js
 msgid "(optional)"
-msgstr ""
+msgstr "(اختياري)"
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid "We couldn't sign you in."
