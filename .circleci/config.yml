@@ -187,6 +187,7 @@ jobs:
       - run:
           name: Run tests
           command: |
+            echo $DJANGO_SETTINGS_MODULE
             source /tmp/workspace/venv/bin/activate
             paver test_lib --with-flaky --cov-args="-p" --with-xunitmp
 
