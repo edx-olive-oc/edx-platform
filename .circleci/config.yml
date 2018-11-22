@@ -119,6 +119,42 @@ jobs:
             source /tmp/workspace/venv/bin/activate
             paver test_system -s lms --with-flaky --processes=1 --cov-args="-p" --with-xunitmp
 
+  lms_unit_tests_no_env_var:
+    docker:
+      - image: edxops/xenial-common:hawthorn.master
+    environment:
+      - NO_PREREQ_INSTALL: "true"
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - v1-{{ checksum ".circleci/config.yml" }}-configuration-{{ checksum "scripts/circle-ci-configuration.sh" }}
+
+      - run:
+          name: Install deb packages
+          command: |
+            ./scripts/circle-ci-configuration.sh
+
+      - attach_workspace:
+          at: /tmp/workspace
+
+      - restore_cache:
+          keys:
+            - v2-{{ checksum ".circleci/config.yml" }}-npm-deps-{{ checksum "package.json" }}
+
+      - run:
+          name: Install local pip packages
+          command: |
+            source /tmp/workspace/venv/bin/activate
+            pip install -r requirements/edx/local.txt
+
+      - run:
+          name: Run tests
+          command: |
+            source /tmp/workspace/venv/bin/activate
+            paver test_system -s lms --with-flaky --processes=1 --cov-args="-p" --with-xunitmp
+
   cms_unit_tests:
     docker:
       - image: edxops/xenial-common:hawthorn.master
