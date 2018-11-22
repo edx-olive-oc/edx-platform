@@ -87,6 +87,7 @@ jobs:
       - image: edxops/xenial-common:hawthorn.master
     environment:
       - NO_PREREQ_INSTALL: "true"
+      - DJANGO_SETTINGS_MODULE: "lms.envs.test"
     steps:
       - checkout
 
@@ -123,6 +124,7 @@ jobs:
       - image: edxops/xenial-common:hawthorn.master
     environment:
       - NO_PREREQ_INSTALL: "true"
+      - DJANGO_SETTINGS_MODULE: "lms.envs.test"
     steps:
       - checkout
 
@@ -159,6 +161,7 @@ jobs:
       - image: edxops/xenial-common:hawthorn.master
     environment:
       - NO_PREREQ_INSTALL: "true"
+      - DJANGO_SETTINGS_MODULE: "lms.envs.test"
     steps:
       - checkout
 
@@ -187,7 +190,6 @@ jobs:
       - run:
           name: Run tests
           command: |
-            echo $DJANGO_SETTINGS_MODULE
             source /tmp/workspace/venv/bin/activate
             paver test_lib --with-flaky --cov-args="-p" --with-xunitmp
 
@@ -196,6 +198,7 @@ jobs:
       - image: edxops/xenial-common:hawthorn.master
     environment:
       - NO_PREREQ_INSTALL: "true"
+      - DJANGO_SETTINGS_MODULE: "lms.envs.test"
     steps:
       - checkout
 
